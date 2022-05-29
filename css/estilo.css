@@ -80,3 +80,22 @@ h1{
     font-weight: 200;
     color: #fff;
 }
+
+.rodape{
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+.rodape>p{
+    margin-bottom: 0;
+}
+
+.rodape>small{
+    font-size: 18px;
+}
+
+.rodape>a{
+    font-size: 1px;
+}
