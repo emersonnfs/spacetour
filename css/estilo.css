@@ -53,3 +53,9 @@ li>a{
     font-size: 20px;
     color: #999;
 }
+
+.banner{
+    height: 450px;
+    margin-bottom: 35px;
+    position: relative;
+}
