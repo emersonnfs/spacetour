@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <div>
+        <form class="cadastro" action="./index.html" method="post">    
+            <fieldset>
+                <legend>Cadastro</legend>
+                <div>
+                    <label for="name">Nome: </label>
+                    <input type="text" name="nome" id="nmId" placeholder="NOME">
+                    <label for="surname">Sobrenome: </label>
+                    <input type="text" name="surname" id="sobrenomeId" placeholder="SOBRENOME">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="emailId" placeholder="EMAIL">
+                    <label for="cpf">CPF: </label>
+                    <input type="text" name="cpf" id="cpfId" placeholder="CPF">
+                </div>
+                <div>
+                    <label for="gender">Gênero: </label>
+                    <input type="text" name="gender" id="genderId" placeholder="GÊNERO">
+                </div>
+                <div>
+                    <label for="data">Data de Nascimento: </label>
+                    <input type="date" name="data" id="dataId" pattern="/^(0?[1-9]|[12][0-9]|3[01])[/-](0?[1-9]|1[012])[/-]\d{4}$/" placeholder="DATA DE NASCIMENTO">
+                </div>
+                <div>
+                    <label for="motivacao">Qual a sua motivação para a viagem?</label>
+                    <textarea name="msg" id="msgId" cols="30" rows="5" placeholder="DIGITE A SUA MOTIVAÇÃO"></textarea>
+                </div>
+                <div>
+                    <input type="button" id="btnEnviar" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
