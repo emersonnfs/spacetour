@@ -59,3 +59,24 @@ li>a{
     margin-bottom: 35px;
     position: relative;
 }
+
+.box{
+    width: 42.5%;
+    padding: 30px 48px;
+    position: absolute;
+    top: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box>p{
+    font-size: 20px;
+    color: #fff;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 200;
+    color: #fff;
+}
